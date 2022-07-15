@@ -1,3 +1,3 @@
-# SymmPrice
+# Future of Industry
 
-Software to manage commodity-price risk for industrials.
+Future of industry landing page.
