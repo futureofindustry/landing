@@ -7,7 +7,7 @@ layout: default
         <tbody>
             <tr>
                 <td>
-                    <p class="title"><b>Future Of Industry</b> is a mission-driven startup lab building the next industrial systems.</p>
+                    <p class="title"><b>Future Of Industry</b> is a startup lab building the next industrial systems.</p>
                     <!-- Begin Mailchimp Signup Form -->
                     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet"
                         type="text/css">
@@ -66,4 +66,20 @@ layout: default
             </tr>
         </tbody>
     </table>
+
 </div>
+
+{%- if site.posts.size > 0 -%}
+<h2 class="post-list-heading">{{ page.list_title | default: "Latest Blog Posts" }}</h2>
+<ul class="post-list">
+  {%- for post in site.posts -%}
+  <li>
+    {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+    <span class="post-meta">
+            {{ post.date | date: date_format }} 
+            </span>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+  </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}
