@@ -8,7 +8,7 @@ In the 1910s, Ford Motors brought standardization and assembly lines, the two mo
 
 The then-new expression "mass production" was touted as the means towards unlimited wealth creation and the renewal of America. Some fancied it the only way survive in business -- to "Fordize or die".
 
-Influenced by supply chain disruptions and commodity price volatility of WWI, Ford's next vision was River Rouge, a project that was synonimous to radical self-sufficiency. 
+Influenced by supply chain disruptions and commodity price volatility of WWI, Ford's next vision was River Rouge, a project that would become synonymous with radical self-sufficiency. 
 
 The "Rouge" was every industrialist's dream: a vertically structured, tightly clocked and in motion operation that trascends the confines of a manufacturing facility. A conveyor of epic proportions that spanned from the American Great Lakes to the Amazonian River in Brazil, from mining raw materials, freight and production and delivery. 
 
