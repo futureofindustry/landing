@@ -13,3 +13,4 @@ Influenced by supply chain disruptions and commodity price volatility of WWI, Fo
 The "Rouge" was every industrialist's dream -- a vertically structured, synced and continuously moving operation that trascends the confines of a manufacturing facility. A conveyor spanning the American Great Lakes to the Amazonian River in Brazil to mine raw materials, move freight, manufacture and handle deliver to customers.
 
 A formidable machine to provide low-cost transportion to America and one of the most useful assets to win the war during WWII. 
+    
