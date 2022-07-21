@@ -1,12 +1,12 @@
-# title: SP 
 email: hi@futureofindustry.org
-# description: >- # this means to ignore newlines until "baseurl:"
-#   Securing Manufacturing Margins.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# Build settings
+
+
 theme: minima
 plugins:
   - jekyll-feed
 
 google_analytics: G-JLKGTPD7FY
+twitter_username: futureofindustry 
+rss: true
