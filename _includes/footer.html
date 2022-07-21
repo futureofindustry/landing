@@ -14,16 +14,22 @@
           <span>San Francisco, CA 🇺🇸</span>
         </ul>
       </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+      <div class="footer-col">
+        {%- if site.posts.size > 0 -%}
+        <h2 class="post-list-heading">{{ page.list_title | default: "Recent Posts" }}</h2>
+        <ul class="post-list">
+          {%- for post in site.posts -%}
+          <li>
+            {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+            <span class="post-meta">
+              {{ post.date | date: date_format }}
+            </span>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </li>
+          {%- endfor -%}
+        </ul>
+        {%- endif -%}
       </div>
     </div>
-
   </div>
-
 </footer>
